@@ -19,3 +19,25 @@ son algo prolongado.**Solución:** Procesar desde patrón de confianza (no prefa
 y resentimiento (no vemos oportunidades). Es preferible fluir con cambio (sin rencor ni añoranza por lo dejado atrás).
 
 ## Ejercicio práctico: recuperar control de mente
+Desactivar piloto automático de la eficiencia? Atención al aquí y ahora reconecta a poder de tomar decisiones.
+
+## Transformación de las creencias
+Debemos reconocer que siempre hemos estado presentes a cambios (hemos mostrado resiliencia). Por ello, el miedo a perder el control y recursos son desactivados cuando
+reconocemos nuestras habilidades (*nunca empezamos de cero* :tenemos experiencias de cambios diarios o duraderos). **La disrupción puede generar bloqueo más alla del miedo
+y se tambalean creencias culturales** Es normal que haya resistencia y que, a mayor cambio, mayor es la respuesta para evitar un cambio. Más conocemos, entonces
+más obsoletos son los conocimientos que tenemos.
+Creencias comunes: qué desean clientes, qué necesita mercado, que debemos comunicar para ser aceptables, qué indica el exito, como hacer o no las cosas, que es fácil o dificil,
+que nos da bien y qué no, sueños que cumpliremos y los que nunca lograremos, tenemos y podemos ser. **Ninguna es verdad:** nacieron del pasado lejano (entonces se
+disasocia de este).
+
+## Ejercicio : Flexibilidad
+Resiliencia puede no ser suficiente si pensamos que lo correcto es lo que tenemos y hacemos, por lo que ser flexibles facilita entender cómo deberían
+ser las cosas **Cambio en oportunidad**
+Siempre somos capaces de hacer algo diferente a lo que ya hicimos. Otras verdades son posibles, acepta el cambio y usa la resiliencia y flexibilidad.
+- **Apunta lo que creías y ya no es una verdad**
+- **Identifica creencia actual que este frustrando: (como deberían ser las cosas y no es acorde a lo que pasa)**
+- **Imaginar nueva posibilidad (si abrieramos a posibilidad del cambio)** Imagina lo que no existe
+
+**Todas las veces que creiamos que algo acabaría no lo hizo, hemos enfrentado el cambio**
+
+**Suelta el pasado y aprovecha las oportunidades**
