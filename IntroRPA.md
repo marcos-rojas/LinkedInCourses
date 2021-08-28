@@ -58,4 +58,35 @@ Measure ROI for RPA, calculate velocity, derive productivity, measure quality: *
 - Productivity: time taken by humans to complete process/task vs time taken by robots
 - Quality: If correct ruls, governance and decisions -> human error is eliminated, *measure of accuracy of output before and after deployment of RPA (100% quality usually)*
 - Compliance: *measure compliance before and after deployment*
-Time can take between 6-12 weeks + 60-90 days nesting period (add efficiency, tighten rules/governances, see ROI realization)
+Time can take between 6-12 weeks + 60-90 days nesting period (add efficiency, tighten rules/governances, see ROI realization).
+## RPA Implementation in Enterprise
+There are some drivers to implement RPA in our system of processes:
+- Competitive advantage / growth: to innovate, grow and reduce cost, increase saving (remain profitable)
+- Labour arbitrage: HR, IT, Accounting, DS has been maximized (hired outside for less). But multiple companies does the same (search for less price) and ROI can change (job roles has been maximized : *outsourcing*)
+- Challenges faced by Business Process Outsourcing (BPO): changing political scenarios, meeting customer satisfaction, Limited budget, Health concerns (time zones, etc), customer attrition (desgaste, handle work with competitor), scarcity of talent,  employee attrition, communication chanels (social media), frequent disruptions (internet connection, power shutdown), brand equity (HR managers want employees as ambassors)
+- IT changes : complex integration across industry (expensive and time consuming)
+- Employee job satisfaction and retention (demoralization, less productive, etc)
+
+### Steps to Implement RPA
+![rpa_steps](https://user-images.githubusercontent.com/74158005/131225301-cf48764d-0d52-4eed-b464-d846f36f94b1.JPG)
+1. Repetitive or rule-based : data input, output, order/claim processing
+2. Unnatendet vs autonomous: human intervention, actions self-triggered, remote access
+3. Build RPA proof of concept : wheter PoC is feasible 
+4. Build and automation CoE: eliminate issues in running/maintenance, low use of robot by selecting right processes, maintenance of code. Ask questions:
+    - Will RPA be build from a central expert team or descentralized org
+    - Is RPA team associated with business or IT
+    - What are human roles in RPA units
+    - How RPA integrates with IT, existing systems
+    - What processes need to be developed to max efficiency
+    - Implement change management and internal qualification (human worker)
+Consider Infraestructure, Knowledge, Governance (policies, control action, procedures, security control, documentation (version control, upgrade, etc))
+5. Change Management: how will work, skills requirements, organization change. Need strong roadmap (expected output, knowledge input and need control aspects, ownership by leaders, engagement with collaboration because more challenging tasks are delivered)
+6. Takeaways to win in RPA: IT partnership, hidden cost analysis, scalability mindset (plan to implement and supervise growth)
+## LIST OF RPA TOOLS
+**Cognitive bots** (with NLP, image recognition or ML implementations) with unstructured data. **Self-learning bots** learn from employee actions.
+- First wave RPA focused vendors 2000 (Blueprism then UiPath)
+- Second wave 2010: for complex business problems (cognitive or learning bots that are strongly scientific) like Workfusion
+
+BPO providers form agreements with RPA providers and turnkey solutions: so companies focus on business, automate the process, solve complex problems and immense programming efforts. Main criteria: *existing vendor relationship, quality of vendor support, technical criteria, ease of use, total cost*
+![image](https://user-images.githubusercontent.com/74158005/131225800-d873fb59-7684-413b-8027-12f64d54e4eb.png)
+UiPath: technology category, Automation anywhere (biggest market presence and use cases), blueprism (bot governance and deployment features)
