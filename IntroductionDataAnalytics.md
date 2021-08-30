@@ -43,3 +43,18 @@ They know what are you going to buy because predictive analysis and anticipate s
 choose warehouse near to customer (shipping cost like when some habitant buy something during a season). **Discount:** manage discount and prices (based on 
 **website activity, competitor pricing, product availability, item preferences, order history, expected profit**). We cn use Power BI, Tableau and Logic
  
+## Dealing with types of data
+There are some terminologies that are core of Data Analytics:-
+- **Observation** a record which when are grouped are call tables
+- **Data sampling** statistical techinque used to select, manipulate and analyze a representative subset of data points
+- **Dataset** collection of total data captured about the topic we will analyze
+- **Prediction** move from what has happen to what will happen
+
+There is structured, semi-structured (contain both like csv files) and unstructured data (lacks form like email: 80% of total data: presentations,
+email, spreadsheet, documents, audio/video, images, web searches and social media posts): improve customer relationship, targeted marketing or 
+perform sentiment analysis for product review.
+
+Data can be **qualitative** or **quantitative** that has levels (nature of measurements: nominal, ordinal, interval, ratio(there's 0 value)).
+There's a topic which we have to cover briefly : **Normal distribution** or Bell curve/Gauss Distribution which represents most of natural fenomena. It
+has some basic parametes: Mean (average of data points), Variance (sum of squared error of data points), Standar Deviation (root of variance which represent
+how far are we from a point).
