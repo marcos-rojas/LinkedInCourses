@@ -1,6 +1,6 @@
 # RPA (digital workforce)
 
-Eliminate manual tasks with robot automation, basics of RPA where we will learn:
+Eliminate manual tasks with robot automation, [basics of RPA](https://www.simplilearn.com/learn-rpa-basics-skillup) where we will learn:
 - Describe the meaning and growth trends of RPA
 - List benefits of RPA (industry, organizations)
 - Explain cost-benefit analysis and evolution of RPA
@@ -90,3 +90,4 @@ Consider Infraestructure, Knowledge, Governance (policies, control action, proce
 BPO providers form agreements with RPA providers and turnkey solutions: so companies focus on business, automate the process, solve complex problems and immense programming efforts. Main criteria: *existing vendor relationship, quality of vendor support, technical criteria, ease of use, total cost*
 ![image](https://user-images.githubusercontent.com/74158005/131225800-d873fb59-7684-413b-8027-12f64d54e4eb.png)
 UiPath: technology category, Automation anywhere (biggest market presence and use cases), blueprism (bot governance and deployment features)
+[RPA_C.pdf](https://github.com/marcos-rojas/LinkedInCourses/files/7083638/RPA_C.pdf)
