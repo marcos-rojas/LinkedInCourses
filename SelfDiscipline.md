@@ -65,4 +65,48 @@ reasons is find meaning of life (continuous interruption or not enough motivatio
 - **Solution 2:** Connect purpose and passion for career sucess (what you do without being paid)
 - **Reason 3:** Beating fear of failure, overcome fear of change, excuses stopping from lving best life, own obstacle
 - **Solution 3:** Step out of our comfort zone
+## FINISH WHAT YOU START
+Sometimes want to do 100's ideas at time but focus is lost. Dedicate ourselves to one thing at time (**work on goal daily**)
 
+Reasons: initial motivation, lack of motivation or lost faith, posponing things to avoid discomfort, fear of not getting desired result,
+not interest (look for excuses), fear of change.
+### SELF-DISCIPLINE
+It is acquired over time (make plans, if commitment -> maintain it because your brain can think it's ok don't do what it's
+suppose to do). So, **training main** has to be an everyday task to build self-discipline effectively. One way to build:
+- Organization skills: set priorities + eliminate what is not necessary
+- Small steps: daily habits takes time and perseverance
+- Reward yourself: entertainment, food, self-care, travel (every time a task)
+- No excuses : try until reach the goal
+## EXERCISE
+- Why and what do I procrastinate : Make excuses about the situations (it's not ideal) or lost time
+  seeing other people's achievement, seeing social network, not planning (organization skills), not
+  self-discipline and a vague focus on goals. I procrastinate: see videos about movies, lost time on
+  media content, make things over and over (introductory things) and not setting a big goal for month
+  or week.
+- Can I divide complex goals into small tasks (create a bulleted list): Yes, here we are:
+  - Web Dev Goals: dedicate 2 hours a day to study on FreeCodeCamp :heavy_check_mark:
+  - Do some programming exercises: 30 minutes at morning :heavy_check_mark:
+  - Do projects: set 2 hour to copy some projects on internet (divide into 4 pieces) :heavy_check_mark:
+  - Do exercise 1 hour a day :heavy_check_mark:
+  - Looking for job post: 30 minutes :heavy_check_mark:
+  - Practicing Data Science Book: 2 hour :heavy_check_mark:
+  - Do the BTPUCP tasks: 30 minutes :heavy_check_mark:
+  - Reviewing Kaggle platform: 30 minutes :heavy_check_mark:
+  - Make a part of Udemy class: 1 hour :heavy_check_mark:
+  - Avoid Instagram, LinkedIn, Youtube entertainment videos
+- Which are my passions
+- What would I do all day even for free
+- Am I procrastinating on something related with my goals and passions
+- What are the main causes of procrastination
+## GOD HABITS
+We have to change the bad ones (actions we've done everyday), then our mind manages to work
+with habits easily (repeated automatically).
+
+Long term goals: Influence Life and the goals must be aligned to what you believe in a who you are. Combine right goals
+and daily self-discipline to reach desired outcomes (**We are going to go for a long process: e.g. 30 days for habit**).
+
+My new schedule:
+![image](https://user-images.githubusercontent.com/74158005/132030904-0f8e989b-f257-4f0d-8d3a-29962b70fa01.png)
+
+Finally Achieved:
+[Certificado1.pdf](https://github.com/marcos-rojas/LinkedInCourses/files/7107004/Certificado1.pdf)
