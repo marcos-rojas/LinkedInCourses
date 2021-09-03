@@ -40,3 +40,29 @@ Stress are circunstantes that create tension: inability to cope with some situat
 - Take a walk
 - Enjoy the silence
 - Get out of the routine : make some thing different (join event, discover something new: you would like or not)
+## SET GOALS TO GET WHERE YOU WANT TO BE
+Motivation can be related to how much you are near to what you would like to be (motivation + action = goal).
+It is a process which follow some steps: *lack* (emotions), *tension*, *goal*, *action*. One of the most important
+reasons is find meaning of life (continuous interruption or not enough motivation/ never manage to do something): **Investigate deeper**.
+## STRATEGIES TO STAY MOTIVATED
+- Set goals that inspire you
+- Create daily plan
+- Don't give up
+- Focus on the present moment
+- Visualize result
+- Be the person you want to be
+- Give value to your past successes
+- Avoid those who doubt you
+- Reward yourself
+## PROCRASTINATION REASONS
+- We are scared or anxious
+- We tend to choose easier and less demanding way (*you still have the task*)
+- Long deadlines (think work is more difficult and demanding)
+- Random deadline (fill all time it takes) Brain choose based on short-term results
+- **Reason 1:** Bad time management, no planning, lack of clarity, lot of breaks/distractions, postpone work to another day
+- **Solution 1:** Make micro goals (not everything at the same time) to get productivity
+- **Reason 2:** Lack of interest (emotions, feeling uncomfortable, try to avoid situation of stress)
+- **Solution 2:** Connect purpose and passion for career sucess (what you do without being paid)
+- **Reason 3:** Beating fear of failure, overcome fear of change, excuses stopping from lving best life, own obstacle
+- **Solution 3:** Step out of our comfort zone
+
