@@ -1,17 +1,35 @@
 # MODULO 1: AUTOCONOCIMIENTO
+Reconocer motivaciones, valores, fortalezas y oportunidades de mejora para vida laboral. Mantener escencia pero adaptarse al cambio.
 ## Autoconocimiento
-- Definicion: camino que nos permite conocernos globalmente (intimo sobre nosotros)
+- Definicion: camino que nos permite conocernos globalmente (intimo sobre nosotros en todo aspecto de nosotros)
 - Objetivo: reconocer motivaciones, valores, principales fortalezas y oportunidades para iniciar vida laboral
 - Preguntas: Cuentame sobre ti. Cómo te ves en 10 años, cuales son fortalezas y oportunidades de mejora
 
 ### Identificando fortalezas y oportunidades de mejora
 Las fortalezas usualmente no se hacen con reflexión, hacerlo te diferencia de los demás
-Como tal, las *fortalezas* son capacidades que permiten cubrir tareas y realizarlas de forma correcta:
-conocimientos, competencias, habilidades y talentos. Son usadas para relacionarse, alcanzar objetivos y realizar trabajo
+Como tal, las *fortalezas* son capacidades que permiten cubrir tareas y realizarlas de forma correcta: conocimientos, competencias, habilidades y talentos. Son usadas para relacionarse con los demás, alcanzar objetivos y realizar trabajo.
 **Ejercicio práctico:** responder preguntas clave
-Oportunidades de mejora (*Llevan a la acción*) están relacionadas a acciones que cuestan trabajo realizar y que se vinculan a
-conocimiento, competencias y habilidades.
+[Preguntas clave Fortalezas.docx](https://github.com/marcos-rojas/LinkedInCourses/files/7117662/Preguntas.clave.Fortalezas.docx)
 
+Oportunidades de mejora (*Llevan a la acción*) están relacionadas a acciones que cuestan trabajo realizar y que se vinculan a
+conocimiento, competencias y habilidades.(Es importante enfatizar como se estan trabajando para mejorar)
+[Preguntas clave Oportunidades.docx](https://github.com/marcos-rojas/LinkedInCourses/files/7117737/Preguntas.clave.Oportunidades.docx)
+
+Test de personalidad y evaluación 360.
+[20165808 - 360 - Marcos Rojas.pdf](https://github.com/marcos-rojas/LinkedInCourses/files/7117744/20165808.-.360.-.Marcos.Rojas.pdf)
+*Test de personalidad*
+Resultados: **Personalidad Arquitecto** INTJ-A (Profundidad y calidad; valora: honestidad, intelecto y superación personal)
+Como una paradoja para la mayoría de observadores, los Arquitectos son capaces de vivir con evidentes contradicciones que sin embargo tienen sentido, al menos desde un punto de vista puramente racional. Por ejemplo, los Arquitectos son al mismo tiempo los idealistas más idealistas y los más ácidos de los cínicos, un conflicto que parecería imposible. Pero esto se debe a que los tipos con personalidad de Arquitecto tienden a creer que con esfuerzo, inteligencia y consideración, nada es imposible, mientras que al mismo tiempo creen que la gente es demasiado perezosa, miope o egoísta como para lograr realmente resultados fantásticos.
+interesantes observaciones, ideas originales y lógica formidable 
+Los Arquitectos son brillantes y confían en los conocimientos que les ha llevado tiempo entender, pero lamentablemente es poco probable que el acuerdo social sea una de esas materias. Las mentiras piadosas y las conversaciones superficiales son lo suficientemente duras como lo son para un tipo de personalidad que anhela la verdad y la profundidad, pero los Arquitectos pueden llegar hasta el punto de considerar muchas convenciones sociales como francamente estúpidas.
+
+Fortalezas: racionalidad, informado, independencia en las tareas, curioso (abierto a nuevas ideas racionales), versatilidad (curiosidad y determinación).
+Debilidades: arrogancia, desdeño por la emoción, demasiado critico, combatibos (sobre regulaciones o reglas), despiste romantico
+Amistades: no hay obseción con ser popular pero, si hay una conexión, puede ser una de las mejores experiencias. A veces pueden evadir a personas que no alcanzan sus expectativas. Ello no significa ser desdeñoso sino decidido: no quieren sentirse en deuda con amigos ni que ellos lo esten con uno: respeto mutuo. **La falta de pistas puede desorientar** al no estar informados sobre consuelo.
+
+**“One never notices what has been done; one can only see what remains to be done, and if one didn’t like the work, it would be very discouraging.”**
+Incluso cuando las personas que los rodean caen presas del pensamiento grupal, las personalidades de los arquitectos pueden atravesar el ruido y descubrir la verdadera causa de un problema, y luego solucionarlo.
+Many Architects pursue low-profile but influential roles as project managers, systems engineers, marketing strategists, systems analysts, and military strategists. These personalities have the creativity and vision to make important contributions in any workplace, and these skills certainly give them a leg up if they choose to start their own business.
 
 ### Identificando valores y motivaciones
 ### Describiendo quien soy
