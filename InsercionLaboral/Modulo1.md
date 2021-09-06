@@ -35,14 +35,3 @@ Metas planteadas, deseadas o soñadas: plantear objetivos es el primer punto, lu
 Luego, debemos definir objetivos profesionales a corto, mediano y largo plazo (se pueden reformular cada cierto tiempo)
 ## Armar plan de vida profesional
 Tenemos el propósito, fortalezas, oportunidades de mejora, motivaciones, valores y áreas de interés -> podemos armar plan de carrera: **En una sola cara.**
-
-# MODULO 2: Busqueda de empleo y proceso de selección
-Se trabaja: planificación de búsqueda de empleo y conocer etapas de proceso de selección.
-## Principales fuentes de empleo
-## Búsqueda activa de empleo
-## Cómo postular a un puesto
-## Reconocer proceso de selección
-
-
-
-# MODULO 2: CV, VideoCV, LinkedIn y evaluaciones
