@@ -37,9 +37,20 @@ Incluso cuando las personas que los rodean caen presas del pensamiento grupal, l
 ### Identificando valores y motivaciones
 Cada empresa tiene valores/cultura propios (dentro de cultura organizacional) y lo ideal es que encajen con los nuestros (por lo que debemos tenerlos claros).
 
-**Valores:** Concepciones colectivas de lo que se considera bueno, deseable y apropiado o malo, indeseable/incorrecto en la cultura (respeto, equidad, honestidad). Según *N.J. Kube:* Parte integral de filosofía de vida de persona (forma de pensar y principio que guian nuestro comportamiento). Una forma de apoyarse es mediante el test de [Value Center]().
+**Valores:** Concepciones colectivas de lo que se considera bueno, deseable y apropiado o malo, indeseable/incorrecto en la cultura (respeto, equidad, honestidad). Según *N.J. Kube:* Parte integral de filosofía de vida de persona (forma de pensar y principio que guian nuestro comportamiento). Una forma de apoyarse es mediante el test de [Value Center](https://survey.valuescentre.com/survey.html?id=s1TAEQUStmw00Xkb9ByK_B4E3lIuZOgB0EGag0Ki1CIOvC8MbC5eSA&locale=es_VE). En particular, lo que busco como fin es seguir la senda de un estoico: Coraje, Disciplina, Justicia y Sabiduría.
 
-Para un estoico: Coraje, Disciplina, Justicia y Sabiduría
+- **Resultados de evaluación Value Center**
+[Marcos Rojas Evaluación Value Center](https://github.com/marcos-rojas/LinkedInCourses/files/7145526/Marcos.Rojas.-.PVA.Sep.2021.pdf)
+
+- Luego de ello, se puede realizar una autoevaluación para definir mis valores:
+[Ejercicio Define tus valores](https://github.com/marcos-rojas/LinkedInCourses/files/7146044/Ejercicio.Define.tus.valores.docx)
+
+- **Motivaciones** Porqué estudiar la carrera? Dónde nos vemos en cierta cantidad de años? La motivación está asociada a lo que nos mueve para alcanzar los objetivos en la vida. A fin de identificarlos, se realizará el cuestionario de desarrollo de ejes de desarrollo profesional.(selección 1 eje de cada sección, en total 4 que deberían reflejar lo que es nuestra visión personal (estilo de vida deseado) y visión profesional (lo que me gustaría lograr como profesional)). Luego, se definen las motivaciones.
+
+- Ejes de desarrollo : [Cuestionario ejes de desarrollo](https://github.com/marcos-rojas/LinkedInCourses/files/7146113/Cuestionario.Ejes.de.Desarrollo.docx)
+- Ejercicio de motivaciones: [Ejercicio define tus motivaciones](https://github.com/marcos-rojas/LinkedInCourses/files/7146441/Ejercicio.Define.tus.motivaciones.docx)
+
+- **Describiendo quien soy:** En un máximo de 6 lineas, poder describir quién soy en base a los valores, motivaciones, fortalezas y oportunidades de mejora reconocidas. 
 ### Describiendo quien soy
 
 # MODULO 1: PLAN DE CARRERA
