@@ -62,6 +62,14 @@ Conjunto de objetivos: corto, mediano y largo plazo.
 - Teoría de Golden Circle (QUÉ, CÓMO y PORQUÉ): todo plan basado en objetivos (**Vision**) que tienen un porqué máximo: **propósito de vida** sustentada en valores y motivaciones. 
 
 El "QUÉ" son las cosas que hacemos, "CÓMO" es manera de hacerlas diferentes del resto y "PORQUÉ" son creencias, valores y motivaciones (ojo: dinero es una consecuencia). 
+[Preguntas para descubrir tu PORQUÉ](https://github.com/marcos-rojas/LinkedInCourses/files/7148250/Preguntas.para.descubrir.tu.PORQUE.docx)
+
+- CONTRIBUCION A LOS DEMÁS (fortalezas e historia) + IMPACTO (valores y motivaciones)
+Inspirar a la gente a hacer las cosas que la motiven, de forma que,  juntos, podamos cambiar el mundo
+
+Fortalezas  : Compromiso, busqueda de excelencia y sabiduría
+Participar en actividades innovadoras, interacción de tecnologías y trabajar con personas con ideas disruptivas
+Valores: eficiencia, crecimiento personal, ambición, crear un impacto diferente en el mundo
 
 **Herramienta que ayuda a tener claridad sobre lo que buscamos y conseguir los elementos para hallar propia felicidad*.
 - Ejercicio: Hallar el Porqué y resumir conceptos (*fortalezas, motivaciones, valores y temas principales de historia de vida*) en frase corta. Ejemplo: Inspirar a gente a hacer las cosas que la motiven, de forma que, juntos, podamos cambiar el mundo. (verbo -> contribución hacia los demas -> impacto).
