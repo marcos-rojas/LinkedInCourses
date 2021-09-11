@@ -50,15 +50,20 @@ Cada empresa tiene valores/cultura propios (dentro de cultura organizacional) y 
 - Ejes de desarrollo : [Cuestionario ejes de desarrollo](https://github.com/marcos-rojas/LinkedInCourses/files/7146113/Cuestionario.Ejes.de.Desarrollo.docx)
 - Ejercicio de motivaciones: [Ejercicio define tus motivaciones](https://github.com/marcos-rojas/LinkedInCourses/files/7146441/Ejercicio.Define.tus.motivaciones.docx)
 
-- **Describiendo quien soy:** En un máximo de 6 lineas, poder describir quién soy en base a los valores, motivaciones, fortalezas y oportunidades de mejora reconocidas. 
 ### Describiendo quien soy
+En un máximo de 6 lineas, poder describir quién soy en base a los valores, motivaciones, fortalezas y oportunidades de mejora reconocidas. 
+[Describiendo quien soy](https://github.com/marcos-rojas/LinkedInCourses/files/7147038/Plantilla.Describiendo.quien.soy.docx)
 
 # MODULO 1: PLAN DE CARRERA
 Conjunto de objetivos: corto, mediano y largo plazo. 
 - Trabajar en próposito de vida (cambia pero da una línea base)
 - Definir metas a lograr (con coherencia)
 ## Descubre propósito de vida
-- Teoría de Golden Circle (QUÉ, CÓMO y PORQUÉ): todo plan basado en objetivos (**Vision**) que tienen un porqué máximo: **propósito de vida** sustentada en valores y motivaciones. El "QUÉ" son las cosas que hacemos, "CÓMO" es manera de hacerlas diferentes del resto y "PORQUÉ" son creencias, valores y motivaciones (ojo: dinero es una consecuencia). **Herramienta que ayuda a tener claridad sobre lo que buscamos y conseguir los elementos para hallar propia felicidad*.
+- Teoría de Golden Circle (QUÉ, CÓMO y PORQUÉ): todo plan basado en objetivos (**Vision**) que tienen un porqué máximo: **propósito de vida** sustentada en valores y motivaciones. 
+
+El "QUÉ" son las cosas que hacemos, "CÓMO" es manera de hacerlas diferentes del resto y "PORQUÉ" son creencias, valores y motivaciones (ojo: dinero es una consecuencia). 
+
+**Herramienta que ayuda a tener claridad sobre lo que buscamos y conseguir los elementos para hallar propia felicidad*.
 - Ejercicio: Hallar el Porqué y resumir conceptos (*fortalezas, motivaciones, valores y temas principales de historia de vida*) en frase corta. Ejemplo: Inspirar a gente a hacer las cosas que la motiven, de forma que, juntos, podamos cambiar el mundo. (verbo -> contribución hacia los demas -> impacto).
 ## Investiga rubros y área en las que quieras trabajar
 Áreas y organizaciones objetivo (es un buen punto de partida para planear rumbo de carrera profesional). (Pueden haber dificultades antes de ingresar al mundo laboral: **research como herramienta**): *Plan de investigación de organizaciones y/o áreas* que te interesan en estos momentos para descubrir por donde empezar. **Lleva tiempo pero ayuda a alcanzar más rápido los sueños**.
