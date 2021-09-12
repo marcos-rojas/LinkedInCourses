@@ -59,25 +59,29 @@ Conjunto de objetivos: corto, mediano y largo plazo.
 - Trabajar en próposito de vida (cambia pero da una línea base)
 - Definir metas a lograr (con coherencia)
 ## Descubre propósito de vida
-- Teoría de Golden Circle (QUÉ, CÓMO y PORQUÉ): todo plan basado en objetivos (**Vision**) que tienen un porqué máximo: **propósito de vida** sustentada en valores y motivaciones. 
-
+- Teoría de Golden Circle (QUÉ, CÓMO y PORQUÉ): todo plan basado en objetivos (**Vision**) que tienen un porqué máximo: **propósito de vida** sustentada en valores y motivaciones. **Herramienta que ayuda a tener claridad sobre lo que buscamos y conseguir los elementos para hallar propia felicidad*.
 El "QUÉ" son las cosas que hacemos, "CÓMO" es manera de hacerlas diferentes del resto y "PORQUÉ" son creencias, valores y motivaciones (ojo: dinero es una consecuencia). 
 [Preguntas para descubrir tu PORQUÉ](https://github.com/marcos-rojas/LinkedInCourses/files/7148250/Preguntas.para.descubrir.tu.PORQUE.docx)
 
+- Ejercicio: Hallar el Porqué y resumir conceptos (*fortalezas, motivaciones, valores y temas principales de historia de vida*) en frase corta. Ejemplo: Inspirar a gente a hacer las cosas que la motiven, de forma que, juntos, podamos cambiar el mundo. (verbo -> contribución hacia los demas -> impacto).
 - CONTRIBUCION A LOS DEMÁS (fortalezas e historia) + IMPACTO (valores y motivaciones)
-Inspirar a la gente a hacer las cosas que la motiven, de forma que,  juntos, podamos cambiar el mundo
 
-Fortalezas  : Compromiso, busqueda de excelencia y sabiduría
+**Colaborar con personas innovadoras en la integración de tecnologías, de forma que, con compromiso y busqueda de la excelencia, creemos un impacto
+diferente en el mundo y en bienestar mismo.**
+
+<!--- Fortalezas  : Compromiso, busqueda de excelencia y sabiduría
 Participar en actividades innovadoras, interacción de tecnologías y trabajar con personas con ideas disruptivas
 Valores: eficiencia, crecimiento personal, ambición, crear un impacto diferente en el mundo
+ ---> 
 
-**Herramienta que ayuda a tener claridad sobre lo que buscamos y conseguir los elementos para hallar propia felicidad*.
-- Ejercicio: Hallar el Porqué y resumir conceptos (*fortalezas, motivaciones, valores y temas principales de historia de vida*) en frase corta. Ejemplo: Inspirar a gente a hacer las cosas que la motiven, de forma que, juntos, podamos cambiar el mundo. (verbo -> contribución hacia los demas -> impacto).
 ## Investiga rubros y área en las que quieras trabajar
-Áreas y organizaciones objetivo (es un buen punto de partida para planear rumbo de carrera profesional). (Pueden haber dificultades antes de ingresar al mundo laboral: **research como herramienta**): *Plan de investigación de organizaciones y/o áreas* que te interesan en estos momentos para descubrir por donde empezar. **Lleva tiempo pero ayuda a alcanzar más rápido los sueños**.
-- Primero: mapear organizaciones y/o áreas: sector público, privado u organizaciones sin fines de lucro (buscar info).
-- Segundo: relacionada a organizaciones en las que me gustaría trabajar
-- Tercero: investiga sobre áreas de interés: Entrevista a profesionales con experiencia (red de contactos y LinkedIn), preguntas abiertas (evitar si/no), no temer el silencia, preguntas porqué/detalles/lugares/situaciones.
+Áreas y organizaciones objetivo (son punto de partida para planear rumbo de carrera profesional). *Debemos armar un plan de investigación de organizaciones y/o áreas* que nos interesan en estos momentos, para descubrir por donde empezar - lo cual lleva tiempo pero ayuda a alcanzar más rápido los sueños.
+- Primero: mapear organizaciones y/o áreas: sector público, privado u organizaciones sin fines de lucro [Plan de investigación 1](https://github.com/marcos-rojas/LinkedInCourses/files/7149833/Como.armar.tu.plan.de.investigacion.1.docx)
+
+- Segundo: obtener información relacionada a organizaciones en las que me gustaría trabajar (empresa, visión, misión y testimonios; lo cual tomará un tiempo)
+(**TRABAJANDO**)
+- Tercero: investiga sobre áreas de interés: Entrevista a profesionales con experiencia (red de contactos y LinkedIn), preguntas abiertas (evitar si/no), no temer el silencio, preguntas porqué/detalles/lugares/situaciones.
+(**TRABAJANDO**)
 - Cuarto: Matriz de toma de decisiones (elegir entre varias alternativas y establecer prioridades en base a criterios).
 ## Define objetivos personales
 Metas planteadas, deseadas o soñadas: plantear objetivos es el primer punto, luego plan de acción para alcanzar metas (profesional en el que soñamos convertirnos). **Ejercicio: premisas**.
