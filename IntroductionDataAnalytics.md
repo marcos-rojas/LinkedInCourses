@@ -58,3 +58,15 @@ Data can be **qualitative** or **quantitative** that has levels (nature of measu
 There's a topic which we have to cover briefly : **Normal distribution** or Bell curve/Gauss Distribution which represents most of natural fenomena. It
 has some basic parametes: Mean (average of data points), Variance (sum of squared error of data points), Standar Deviation (root of variance which represent
 how far are we from a point).
+
+## Data visualization for decision making
+It's graphical representation of data, storytelling with a purpose (no just cells, instead we show trends). Thus, we can help decision makers to better outcomes, provides simplicity, clarity, patterns, etc (crisp, clear and memorable). Company leader can see flags faster, spot problems inmediately. Next, we are going to describe commonly used visualizations:
+- Heatmap : visualize through color graduations, relation and strenght between multiple variables. It has a form of a matrix, whose cells represent the relationship (correlatiton)
+- Frequency distribution plot: frequency of ocurrence of a variable (included normalized). It's described with tables, histogram, line graph, dot plot and pie chart.
+- Swarm plot: can give better viz of data distribution but works well for small datasets (on dimensional data along an axis). Beeswarm plot for example, time vs tip.
+
+Data viz provide acces to know data trends, outliers, patterns and help decision makers. EDA is an approach to analyze data and summarize main characteristics (first step).
+### Data viz tools
+Tableu: it's the most widely used because simple use. FusionChart: based on JavaScript with numeruous platforms and frameworks, example templates. HighCharts: fast and flexible solution and cross browser support. Datawrapper: simple interface for csv, charts and maps for media organizations. Plotly: more sofisticated with Python, R and Matlab. Sisense: full stack analytics with drag.drop interface. PowerBI: semi Business Analytics tools, standar customized viz. Looker: with real time analytics. DOMO: social colaboration, real time using sparklines, trend indicators, widgets and integrated Google Analytics. Qlik: clean interface, setup and various features. Board: BI systems for large companies.
+
+There are some languages and libraries: Scala (compiled language to faster execution), Python (seaborn (high level interface for matplolive), Bokeh (interactive web apps, JSON, HTML, streaming) and matplotlib (2d and 3d graphic support)), R (ggplot2, latte graphics, Shiny (interactive web apps), etc), Java (2D, 3D abd advanced), JavaScript. Dashboard are customized viz with multiple variables, displays gauge, tables, graphs, etc (highly interactive, dynamic and real time data update). To build them, we need to plan some steps: analyze target audience, key business parameters (responsabilities KRA, process indicators KPI, process area KPA, SLA service agreement). Then, we need to know end goal of dashboard, develop the dashboard and continuous improvement iwht audience feedback.
