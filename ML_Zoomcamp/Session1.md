@@ -55,3 +55,50 @@ np.random.seed(2) #seed to get same random each running
 np.random.randn(5, 2) #it give us a positive/negative distribution of 5 rows and 2 cols
 np.random.randint(low=0, high=100, size=(5, 2)) #to get integers in a range
 ```
+### Statistic basics (just some parts)
+The first operation is multiplication (sum is element wise) with dot product, identity matrix (np.eye(#n)), inverse (V_inv = np.linalg.inv(V))
+and selection just some elements of a matrix (V[[0, 1, 2]] for selecting first three rows).
+```python
+# dot multiplication by definition and with a numpy function
+u = np.array([2, 4, 5, 6])
+v = np.array([1, 0, 0, 2])
+def vector_vector_multiplication(u, v):
+    assert u.shape[0] == v.shape[0] ##be sure to have the same dimensionality columns with shape
+    n = u.shape[0]
+    result = 0.0
+    for i in range(n):
+        result = result + u[i] * v[i]
+    
+    return result
+ vector_vector_multiplication(u,v) = 14 # one of the row array is converted to column and dot product is made
+ u.dot(v) # the method implementation
+```
+Then we have the matrix-vector multiplication (each row is multiplied by vector and it's appended to a column array of same row as matrix).
+Thus, we use the las function we've defined (vector_vector_multiplication) and we append it to our output (dot method work the same).
+```python
+def matrix_vector_multiplication(U, v):
+    assert U.shape[1] == v.shape[0]
+    num_rows = U.shape[0]
+    result = np.zeros(num_rows)
+    for i in range(num_rows):
+        result[i] = vector_vector_multiplication(U[i], v)
+    return result
+ ```
+ For matrix-matrix multiplication, we make the same calculation as matrix-vector multiplication while we divide the second
+ matrix into column vector each one.
+ ```python
+ def matrix_matrix_multiplication(U, V):
+    assert U.shape[1] == V.shape[0]
+    
+    num_rows = U.shape[0]
+    num_cols = V.shape[1]
+    
+    result = np.zeros((num_rows, num_cols))
+    
+    for i in range(num_cols):
+        vi = V[:, i]
+        Uvi = matrix_vector_multiplication(U, vi)
+        result[:, i] = Uvi
+    return result
+ ```
+    
