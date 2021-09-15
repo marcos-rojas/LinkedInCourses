@@ -30,6 +30,17 @@ sns.histplot(data_df.msrp[data_df.msrp < 100000], bins= 50) #plotting just msrp 
 price_logs = np.log1p(data_df.msrp) #calculating log(1+x of data) to convert to a log scacale
 sns.histplot(price_logs, bins= 50) #plotting
 ```
+- Prepare data : Setting the validation framework (train, validation and test data groups)
+There are already some libraries but it would be useful if we manipulate data by ourselves
+```python
+idx = np.arange(n) # we get a set/array of index values shuffled to make it random
+np.random.seed(2)
+np.random.shuffle(idx)
+df_val = data_df.iloc[idx[:n_val]] # each group is selected with iloc method and the idx order
+df_train = df_train.reset_index(drop = True) # we delete the previous index values (when were part of bigger dataset)
+y_train = np.log1p(df_train.msrp.values) # sabe output values in another variable
+del df_train['msrp'] # delete the columns with the output variable to training without it
+```
 - Use linear regression to price prediction
 - Understand linear regression logic
 - Evaluate model with RMSE (root-mean-square error)
