@@ -42,6 +42,22 @@ y_train = np.log1p(df_train.msrp.values) # sabe output values in another variabl
 del df_train['msrp'] # delete the columns with the output variable to training without it
 ```
 - Use linear regression to price prediction
+From *g(x)=y* we know g() is our linear regression model (which we want to get), x is a feature matrix and y is our desired output (values predicted).
+For one observation: *g(x_i) = y_i*, where x_i is a vector = (x_i1, x_i2, ...x_in). Because we want a function which combines this values and return us our output y_i.
+Then, we start by giving a form of linear equation to g(x_i) = w_0+w_1\*x_i1+...+w_n\*x_in -> g(x_i) = w_o + sum(w_j\*x_ij) (here 'i' doesn't change). Don't forget we've
+made a log(y+1), so we should make e^(x_i)-1 to get our result.
+w_0 is bias (if we didn't know anything about data)
+```python
+xi = [453, 11, 86]
+w0 = 7.17
+w = [0.01, 0.04, 0.002]
+def linear_regression(xi):
+    n = len(xi)
+    pred = w0
+    for j in range(n):
+        pred = pred + w[j]*xi[j]
+    return pred
+```
 - Understand linear regression logic
 - Evaluate model with RMSE (root-mean-square error)
 - Feature engineering
