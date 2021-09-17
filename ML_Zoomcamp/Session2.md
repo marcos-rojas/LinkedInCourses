@@ -59,7 +59,88 @@ def linear_regression(xi):
     return pred
 ```
 - Understand linear regression logic
+**Linear regression in vector form** We need to generalize our equation to *g(X) = y*. From past equation (w_0 + sum(w_j\*x_ij)), we can reformulate
+in a way that we get a vector dot product (add 1 parameter at beginning of x_ij). Thus 
+```python
+w = [w0, w1, w2, w3, .. wn]
+x = [1, x1, x2, x3...xn]
+# Thus X.T*w is what we've found before
+# remember that [w0] + w = [w0 ...w] for numpy array
+X = [[1 x11 x12 ..x1n]
+     [1 x21 x22 ..x2n],
+     ...]
+w = [w0 w1 w2 ... wn]
+```
+```python
+# Example of linear regression vectorized
+x1 = [1, 148, 24, 1385]
+x2 = [1, 18, 25, 2031]
+x3 = [1, 14, 11, 86]
+X = [x1, x2, x3]
+X = np.array(X)
+X.dot(w) # this is our prediction for each element with linear regression
+```
+The basic problem of linear regression is to solve this equation: Xw = y (as an aproximation); an easy approach would be to use the inverse of X but
+it's not square matrix because number of rows are great than columns. Another approach is using **Gram matrix X.T\*X**, which has an inverse because it's (n+1)\*(n+1).
+It's important to remember that solution doesn't exist, we just get an approximation for x = (XT\*X)-1\*X.T\*y. 
+```python
+# After declare our X
+X = [
+     [148, 24, 1385],
+     [18, 25, 2031],
+     [14, 11, 86].. #and so on
+]
+ones = np.ones(X.shape(0)) #same number of rows for ones
+X = np.column_stack([ones, X]).round()
+# we declare our y
+y = [ y1, y2, ...]
+XTX = X.T.dot(X)
+XTX_inv = np.linalg.inv(XTX)
+w_full = XTX_inv.dot(X.T).dot(y) #This is our output, thus we can use it as a function
+
+def train_linear_regression(X, y):
+    ones = np.ones(X.shape(0))
+    X = np.column_stack([ones, X]).round()
+    
+    XTX = X.T.dot(X)
+    XTX_inv = np.linalg.inv(XTX)
+    w_full = XTX_inv.dot(X.T).dot(y)
+    return w_full[0], w_full[1:] #return solution as a tupple
+```
 - Evaluate model with RMSE (root-mean-square error)
+After we've train our model with the equation before, we need to calculate how well our model predicts values. Thus, we calculate the sum of square differences between
+predictions and real values. Then, we get the mean of that sum and, finally, we get the square root.
+![image](https://user-images.githubusercontent.com/74158005/133707125-2e05fd0e-4a96-481e-a571-70718c5a6431.png)
+```python
+def rmse(y, y_pred):
+    se = (y - y_pred)**2
+    mse = se.mean()
+    return np.sqrt(mse)
+```
+To get a real measurement of the usefulness of our model, we need to use validation and test data.
+
 - Feature engineering
+We can improve our model by using year of the car, then we can get the age which is very useful when price is predicted. Thus, we modify
+the prepare_x function to make a copy of our data, get age data and add it to our dataset, fill NaN values and return it as numpy array.
+```python
+def prepare_X(df): #This function is build to make it readable
+    df = df.copy() # we make a copy to make functional programming
+    df['age'] = 2017 - df.year #we define a new column inside our dataframe
+    features = base + ['age']
+    df_num = df[features]
+    df_num = df_num.fillna(0)
+    X = df_num.values
+    return X
+# We train our model with this new data and get predicted values of our validation dataset. Finally, we get rmse and plot distribution of outputs    
+X_train = prepare_X(df_train)
+w0, w = train_linear_regression(X_train, y_train) #training our model again
+
+X_val = prepare_X(df_train)
+y_pred = w0 + X_val.dot(w)
+print(rmse(y_val, y_pred))
+sns.histplot(y_pred, color = 'red', alpha=0.5, bins=50)
+sns.histplot(y_val, color = 'blue', alpha=0.5, bins=50)
+```
+
 - Regularization (solve some paast problems with numerical values)
 
