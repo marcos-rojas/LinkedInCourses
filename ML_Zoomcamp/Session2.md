@@ -2,6 +2,7 @@
 We would like to help user to come up with best price: develop a model with *Car Features and MSRP* [Kaggle Dataset](https://www.kaggle.com/CooperUnion/cardataset).
 Among features, we would like to predict MSRP (Manufacturer's suggested retail price). Thus, we would follow a project plan:
 - Prepare data (column name, value name format) and do Exploratory Data Analysis
+
 ```python
 # Some commands we've used
 data = read_csv(filenpath)
@@ -31,6 +32,7 @@ price_logs = np.log1p(data_df.msrp) #calculating log(1+x of data) to convert to 
 sns.histplot(price_logs, bins= 50) #plotting
 ```
 - Prepare data : Setting the validation framework (train, validation and test data groups)
+
 There are already some libraries but it would be useful if we manipulate data by ourselves
 ```python
 idx = np.arange(n) # we get a set/array of index values shuffled to make it random
@@ -42,6 +44,7 @@ y_train = np.log1p(df_train.msrp.values) # sabe output values in another variabl
 del df_train['msrp'] # delete the columns with the output variable to training without it
 ```
 - Use linear regression to price prediction
+
 From *g(x)=y* we know g() is our linear regression model (which we want to get), x is a feature matrix and y is our desired output (values predicted).
 For one observation: *g(x_i) = y_i*, where x_i is a vector = (x_i1, x_i2, ...x_in). Because we want a function which combines this values and return us our output y_i.
 Then, we start by giving a form of linear equation to g(x_i) = w_0+w_1\*x_i1+...+w_n\*x_in -> g(x_i) = w_o + sum(w_j\*x_ij) (here 'i' doesn't change). Don't forget we've
@@ -59,6 +62,7 @@ def linear_regression(xi):
     return pred
 ```
 - Understand linear regression logic
+
 **Linear regression in vector form** We need to generalize our equation to *g(X) = y*. From past equation (w_0 + sum(w_j\*x_ij)), we can reformulate
 in a way that we get a vector dot product (add 1 parameter at beginning of x_ij). Thus 
 ```python
@@ -108,6 +112,7 @@ def train_linear_regression(X, y):
     return w_full[0], w_full[1:] #return solution as a tupple
 ```
 - Evaluate model with RMSE (root-mean-square error)
+
 After we've train our model with the equation before, we need to calculate how well our model predicts values. Thus, we calculate the sum of square differences between
 predictions and real values. Then, we get the mean of that sum and, finally, we get the square root.
 ![image](https://user-images.githubusercontent.com/74158005/133707125-2e05fd0e-4a96-481e-a571-70718c5a6431.png)
@@ -120,6 +125,7 @@ def rmse(y, y_pred):
 To get a real measurement of the usefulness of our model, we need to use validation and test data.
 
 - Feature engineering
+
 We can improve our model by using year of the car, then we can get the age which is very useful when price is predicted. Thus, we modify
 the prepare_x function to make a copy of our data, get age data and add it to our dataset, fill NaN values and return it as numpy array.
 ```python
@@ -141,6 +147,87 @@ print(rmse(y_val, y_pred))
 sns.histplot(y_pred, color = 'red', alpha=0.5, bins=50)
 sns.histplot(y_val, color = 'blue', alpha=0.5, bins=50)
 ```
+- Cathegorical features
+With .dtypes we can see some cathegorical data that can include string variables and some numerical data (like number of doors). In case of number of doors, we can
+change them to a group of column where each column represent a specific value for number of doors(2,3 or 4)
+```python
+df['num_doors_4'](df.number_of_doors==4).astype('int') # we get a column of values that represent if a the car have or not 4 doors (1 or 0)
+# In a similar way we can work with string data like in the following way
+categorical_variables = ['make','engine_fuel_type', 'transmission_type', 'driven_wheels','market_category',
+              'vehicle_size', 'vehicle_style']
+# We can make a dictionary with top 5 elements for each categorie
+categories = {}
+for c in categorical_variables:
+    categories[c] = list(data_df[c].value_counts().head().index)
+print(categories.keys())
 
-- Regularization (solve some paast problems with numerical values)
+# we redefine our function that returns a modified copy of our data (some columns aded, filter just some features and fillna)
+def prepare_X(df): #This function is build to make it readable
+    df = df.copy() # we make a copy to make functional programming with data and features
+    features = base.copy()
+    
+    df['age'] = 2017 - df.year #we define a new column inside our dataframe
+    features.append('age')
+    
+    for v in [2,3,4]:
+        df['num_doors_%s' % v] = (df.number_of_doors == v).astype('int')
+        features.append('num_doors_%s' % v)
+    for c, values in categories.items():
+        for v in values:
+            df['%s_%s' % (c, v)] = (df[c] == v).astype('int')
+            features.append('%s_%s' % (c, v))
+        
+    df_num = df[features]
+    df_num = df_num.fillna(0)
+    X = df_num.values
+    return X
 
+######### Finally, we train our model and make predictions with the 'w' obtained
+
+X_train = prepare_X(df_train)
+w0, w = train_linear_regression(X_train, y_train) #training our model again
+
+X_val = prepare_X(df_train)
+y_pred = w0 + X_val.dot(w)
+print(rmse(y_val, y_pred))
+```
+- Regularization (solve some past problems with numerical values)
+
+When working with matrix, the precision can make us get unexpected results because when 2 column have very similar values,
+the inverse tend to get some terms very large while others are very small. Thus, a solution can be if we add larger values to
+the diagonal of our matrix Gram matrix (XTX) before taking the inverse
+
+```python
+def train_linear_regression(X, y, r= 0.001):
+    ones = np.ones(X.shape[0])
+    X = np.column_stack([ones, X])
+    
+    XTX = X.T.dot(X)
+    XTX = XTX + r*np.eye(XTX.shape[0]) #reducing possible error
+    
+    XTX_inv = np.linalg.inv(XTX)
+    w_full = XTX_inv.dot(X.T).dot(y)
+    return w_full[0], w_full[1:] #return solution as a tupple
+# Then we train our model as always, make predictions and calculate rmse
+```
+This model needs to calculate regularization parameter *r* in a way that our model improves with the best value. This way,
+we are **tuning our model**. One approach is to go trough a series of possible values for r and visualize when we get the smaller rmse.
+```python
+#way of combine both data from train and validation samples
+df_full_train = pd.concat([df_train, df_val])
+y_full_train = np.concatenate([y_train, y_val])
+```
+Finally, we can predict the price for a specific car whose characteristics have been introduced
+```python
+car = df_test.iloc[15].to_dict() # this is the format data is input as a form in webpage
+X_small = prepare_X(df_small)
+
+y_pred = w0 + X_small.dot(w)
+y_pred = y_pred[0]
+
+predicted_price = np.expm1(y_pred) #because we've got log(x+1)
+real_price = np.expm1(y_test[15])
+
+print(real_price, predicted_price)
+
+```
